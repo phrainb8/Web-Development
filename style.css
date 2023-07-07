@@ -1,21 +1,112 @@
 *{
     margin: 0px;
+    /* padding: 0px; */
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
-.container{
+
+.main-container{
+    color: white;
+    background-color: black;
+    /* padding: 10px; */
+    list-style: none;
     display: flex;
-    justify-content: left;
+    align-items: center;
+    justify-content: space-around;
 }
-.box{
-    background-color: brown;
-    padding: 20px;
+
+/* .logo-light{
     width: 100px;
+} */
+
+.menu-list{
+    display: flex;
 }
-.family{
-    background-color: green;
+
+.list{
+    margin-right: 10px;
+    padding: 10px;
+    cursor: pointer;
+    /* font-weight: bold; */
 }
-.business{
-    background-color: fuchsia;
+
+.list:hover{
+    color: brown;
 }
-.contact{
-    background-color: blueviolet;
+
+.connected-img{
+    width: 500px;
 }
+
+.banner-container{
+    color: white;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    background-image: url("/images/background.png"), linear-gradient(45deg, #3f3d56, black);
+}
+
+.paragraph1{
+    text-align: justify;
+}
+
+.head4{
+    margin-bottom: 15px;
+}
+
+.company{
+    color: brown;
+}
+
+.head1{
+    margin-bottom: 15px;
+}
+
+.parag1{
+    font-size: 16px;
+    margin-right: 40px;
+    margin-bottom: 25px;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.button {
+    border-radius: 2px;
+    background-color: brown;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 20px;
+    padding: 15px 20px;
+    width: 200px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+  }
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+  }
+  
+  .button:hover span {
+    padding-right: 25px;
+  }
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
