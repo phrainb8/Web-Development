@@ -1,0 +1,21 @@
+*{
+    margin: 0px;
+}
+.container{
+    display: flex;
+    justify-content: left;
+}
+.box{
+    background-color: brown;
+    padding: 20px;
+    width: 100px;
+}
+.family{
+    background-color: green;
+}
+.business{
+    background-color: fuchsia;
+}
+.contact{
+    background-color: blueviolet;
+}
